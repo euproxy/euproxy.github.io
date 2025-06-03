@@ -1,0 +1,2 @@
+# Remove "index.html" (whole path segment only)
+RewriteRule ^(|.+/)index\.html$ /$1 [R=301,L]
